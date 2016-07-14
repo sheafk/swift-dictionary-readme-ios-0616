@@ -7,8 +7,10 @@ var favoriteWords = [
 
 var numberWords = [1: "one"]
 
+//Here I am passing the key in brackets to save the value to a variable. Definition will be a string with the value.
 var definition = favoriteWords["rigmarole"]
 
+//This gets nill because the key does not exist in the dictionary
 var nonexistentDefinition = favoriteWords["strategery"]
 
 if let definition = definition {
